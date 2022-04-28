@@ -55,7 +55,8 @@ namespace activity
 ```
 
 ## Output:
-![Program cs - c# project - Visual Studio Code 28-04-2022 21_03_51](https://user-images.githubusercontent.com/75235022/165789802-2ae9e69e-b321-4b5f-af40-d64ef0f1f135.png)
+![Program cs - c# project - Visual Studio Code 28-04-2022 21_06_28](https://user-images.githubusercontent.com/75235022/165790269-93f08fcd-0660-41b1-840b-1d1e9e9211a6.png)
+
 
 
 ## Result:
