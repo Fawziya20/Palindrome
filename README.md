@@ -1,40 +1,37 @@
-# Palindrome
+### EX NO : 02
+### DATE  : 06.04.2022
+# <p align="center">Palindrome</p>
 
 
 ## Aim:
 To write a C# program to find whether the given string is a Palindrome or not.
 ## Algorithm:
-
-Step1:
+### Step1: 
 Start
-
-Step2:
+### Step2:
 Create a class and declare two variable with string datatype
-
-Step3:
+### Step3:
 Loop over the entire string and reverse it
-
-Step4:
+### Step4:
 Use if condition to check whether the string and the reversed string is equal or not
-
-Step5:
+### Step5:
 print palindrome if it's equal else print not a palindrome.
-
-Step6:
+### Step6:
 stop
 
-## Program:
+<br/><br/><br/><br/><br/><br/><br/>
 
-```
+## Program:
+```c#
 using System;
-namespace activity
+namespace palindrome
 {
-    class Palindrome
+    class Program
     {
         static void Main(string[] args)
         {
             string s, revs = "";
-            Console.WriteLine(" Enter the string: ");
+            Console.WriteLine(" Enter string");
             s = Console.ReadLine();
             s=s.ToLower();
             for (int i = s.Length - 1; i >= 0; i--)
@@ -43,21 +40,19 @@ namespace activity
             }
             if (revs == s)
             {
-                Console.WriteLine("The Entered String is Palindrome");
+                Console.WriteLine("String is Palindrome");
             }
             else
             {
-                Console.WriteLine("The Entered String is not Palindrome");
+                Console.WriteLine("String is not Palindrome");
             }
         }
     }
 }
 ```
-
 ## Output:
-![Program cs - c# project - Visual Studio Code 28-04-2022 21_06_28](https://user-images.githubusercontent.com/75235022/165790269-93f08fcd-0660-41b1-840b-1d1e9e9211a6.png)
 
-
+![image](https://user-images.githubusercontent.com/75235488/175523746-8de182d7-6c15-4e02-b88d-ed480fb5ad71.png)
 
 ## Result:
 Thus the C# program to display whether the given string is Palindrome or not is executed successfully.
